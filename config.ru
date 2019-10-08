@@ -1,6 +1,8 @@
 
 require './config/environment'
 
+Rack::MethodOverride
+
 begin
   fi_check_migration
 
