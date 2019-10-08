@@ -1,0 +1,6 @@
+<h1>WELCOME TO THE ARTICLE APP!</h1>
+<h2>List of All Articles:</h2>
+<% @articles.each do |art|%>
+    <h3><%= art.title %></h3>
+    <p><%= art.content %></p>
+<% end %>
