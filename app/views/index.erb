@@ -1,16 +1,4 @@
-<h2>All of our Articles</h2>
-<ul>
-  <% @articles.each do |article| %>
-    <li>
-      <a href="/articles/<%= article.id %>"><%= article.title %></a>
-    </li>
-  <% end %>
-</ul>
 
-
-<%# code above does not work %>
-<%# ============================ %>
-<%# code below does work %>
 <h2>All of our Articles</h2>
 <ul>
 <% @articles.each do |article| %>
